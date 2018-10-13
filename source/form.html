@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Форма</title>
+</head>
+<body>
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="" height="" alt="Лого Pink">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h2>Конкурс на самое безбашенное путешествие с Пинк</h2>
+  </header>
+  <main>
+    <p>Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! </p>
+    <form class="write-us" action="https://echo.htmlacademy.ru" method="post">
+      <p class="appointment-item">
+        <label class="user-name" for="first-name">Фамилия:</label>
+        <input class="login-icon-name" id="first-name" type="text" name="user-name" placeholder="Укажите фамилию*">
+      </p>
+      <p class="appointment-item">
+        <label class="user-name" for="second-name">Имя:</label>
+        <input class="login-icon-name" id="second-name" type="text" name="user-name" placeholder="Введите ваше имя*">
+      </p>
+      <p class="appointment-item">
+        <label class="user-name" for="third-name">Отчество:</label>
+        <input class="login-icon-name" id="third-name" type="text" name="user-name" placeholder="Ну и отчество тоже*">
+      </p>
+      <h3 class="filter-section">
+        Ваши безбашенные достижения в путешествии
+      </h3>
+      <ul class="filter filter-2">
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="shark" checked>
+          <label for="shark">Сделал селфи с акулой</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="seaside" checked>
+          <label for="seaside">Обгорел на пляже</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="chack-norris">
+          <label for="chack-norris">Видел Чака Норриса</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="souvenirs">
+          <label for="souvenirs">Накупил сувениров</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="hold" checked>
+          <label for="hold">Удержал башню</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" id="hotel">
+          <label for="hotel">Разгромил отель</label>
+        </li>
+      </ul>
+      <p class="appointment-item">
+        <label class="user-name" for="third-name">Номер телефона</label>
+        <input class="login-icon-name" id="telephone" type="text" placeholder="Номер, пожалуйста">
+      </p>
+      <p class="appointment-item">
+        <label class="user-name" for="third-name">Адрес почты</label>
+        <input class="login-icon-name" id="e-mail" type="text" placeholder="Введите почту*">
+      </p>
+      <p>С каким приложением путешествовали?</p>
+      <ul class="filter filter-3">
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-radio" type="radio" value="IOS" id="IOS" checked>
+          <label for="adaptive-grid">Pink для IOS</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-radio" type="radio" value="Android" id="Android">
+          <label for="fixed-grid">Pink на Android</label>
+        </li>
+        <li class="filter-option">
+          <input class="visually-hidden filter-input filter-input-radio" type="radio" value="Windows Phone" id="windows-phone">
+          <label for="rubber-grid">Windows Phone</label>
+        </li>
+      </ul>
+      <label for="textarea">Опишите свои эмоции</label>
+      <p class="textarea"><textarea rows="5" cols="20" name="text" placeholder="Можно прям в красках, не стесняясь в выражениях" id="textarea"></textarea></p>
+      <p><button class="button form-button" type="submit">Отправить форму</button></p>
+    </form>
+    <p>*- Обязательные поля</p>
+  </main>
+  <footer class="main-footer">
+    <img class="main-footer__logo-image" src="img/logotype-mobile.svg" width="" height="" alt="Лого Pink">
+    <ul class="social-buttons">
+      <li><a><img src="http://placehold.it/150x100" alt="social-icon"></a></li>
+      <li><a><img src="http://placehold.it/150x100" alt="social-icon"></a></li>
+      <li><a><img src="http://placehold.it/150x100" alt="social-icon"></a></li>
+    </ul>
+    <p>Разработано:</p>
+    <a class="academy-link"><img src="http://placehold.it/150x100" alt="academy-logo"></a>
+  </footer>
+</body>
+</html>
