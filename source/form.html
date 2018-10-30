@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Форма</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="page-header">
     <a class="page-header__logo">
-      <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="" height="" alt="Лого Pink">
+      <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" width="" height="" alt="Лого Pink">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">Открыть меню</button>
@@ -82,21 +83,23 @@
         <label class="user-name" for="third-name">Адрес почты</label>
         <input class="login-icon-name" id="e-mail" type="text" placeholder="Введите почту*">
       </p>
-      <p>С каким приложением путешествовали?</p>
-      <ul class="filter filter-3">
-        <li class="filter-option">
-          <input class="visually-hidden filter-input filter-input-radio" type="radio" value="IOS" id="IOS" checked>
-          <label for="adaptive-grid">Pink для IOS</label>
-        </li>
-        <li class="filter-option">
-          <input class="visually-hidden filter-input filter-input-radio" type="radio" value="Android" id="Android">
-          <label for="fixed-grid">Pink на Android</label>
-        </li>
-        <li class="filter-option">
-          <input class="visually-hidden filter-input filter-input-radio" type="radio" value="Windows Phone" id="windows-phone">
-          <label for="rubber-grid">Windows Phone</label>
-        </li>
-      </ul>
+      <div class="travel-app">
+        <p>С каким приложением путешествовали?</p>
+        <ul class="filter filter-3">
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" value="IOS" id="IOS" checked>
+            <label for="adaptive-grid">Pink для IOS</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" value="Android" id="Android">
+            <label for="fixed-grid">Pink на Android</label>
+          </li>
+          <li class="filter-option">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" value="Windows Phone" id="windows-phone">
+            <label for="rubber-grid">Windows Phone</label>
+          </li>
+        </ul>
+      </div>
       <label for="textarea">Опишите свои эмоции</label>
       <p class="textarea"><textarea rows="5" cols="20" name="text" placeholder="Можно прям в красках, не стесняясь в выражениях" id="textarea"></textarea></p>
       <p><button class="button form-button" type="submit">Отправить форму</button></p>
@@ -104,14 +107,14 @@
     <p>*- Обязательные поля</p>
   </main>
   <footer class="main-footer">
-    <img class="main-footer__logo-image" src="img/logotype-mobile.svg" width="" height="" alt="Лого Pink">
+    <img class="main-footer__logo-image" src="img/logo-pink-blue-mobile.svg" width="" height="" alt="Лого Pink">
     <ul class="social-buttons">
-      <li><a><img src="http://placehold.it/150x100" alt="social-icon"></a></li>
-      <li><a><img src="http://placehold.it/150x100" alt="social-icon"></a></li>
-      <li><a><img src="http://placehold.it/150x100" alt="social-icon"></a></li>
+      <li><a><img src="../img/icon-twitter.svg" alt="social-icon"></a></li>
+      <li><a><img src="../img/icon-facebook.svg" alt="social-icon"></a></li>
+      <li><a><img src="../img/icon-youtube.svg" alt="social-icon"></a></li>
     </ul>
     <p>Разработано:</p>
-    <a class="academy-link"><img src="http://placehold.it/150x100" alt="academy-logo"></a>
+    <a class="academy-link"><img src="../img/" alt="academy-logo"></a>
   </footer>
 </body>
 </html>
